@@ -13,3 +13,4 @@ this music player i'm building isn't advanced just a basic web music player buil
 i'm starting this project to improve my web development skills i'll keep updating this readme everyday with the progress of the development. 
 
 this music player i'm building isn't advanced just a basic web music player built using php, html, css and javascript (jplayer) 
+php test
