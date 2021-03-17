@@ -15,3 +15,7 @@ i'm starting this project to improve my web development skills i'll keep updatin
 this music player i'm building isn't advanced just a basic web music player built using php, html, css and javascript (jplayer) 
 
 17/03/2021 Designing the homepage using my old website 
+
+-added logo
+-nav bar
+- menu
