@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-    <link rel="stylesheet" type="text/css" href="CSS/design.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MusicBoax</title>
+  <link rel="shortcut icon" href="Images/Icon.jpg" type="image/jpg">
+  <link rel="stylesheet" type="text/css" href="CSS/design.css">
 </head>
 <body>
-
-	<h1>MUSIC PLAYER</h1>
-<script type="text/javascript">
- $(document).ready(function(){
-  $("#jquery_jplayer_1").jPlayer({
-   ready: function () {
-    $(this).jPlayer("setMedia", {
-     m4a: "/media/mysound.mp4",
-     oga: "/media/mysound.ogg"
-    });
-   },
-   swfPath: "/js",
-   supplied: "m4a, oga"
-  });
- });
-</script>
-<div id="jquery_jplayer_1"></div>
-<div id="jp_container_1">
- <a href="https://youtu.be/NZ-JgoftTTY" class="jp-play">Play</a>
- <a href="#" class="jp-pause">Pause</a>
+<div id="main">
+    <nav role = "main">
+        <img id="logo" src="Images/logo.jpg" alt="temporarylogo" >
+       <nav class="nav-bar">
+    <ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="">Report Bug</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+   <li><a href="">Buy Kofi</a></li>
+</ul>
+  </nav>
 </div>
+</div>
+
+
 </body>
 </html>
