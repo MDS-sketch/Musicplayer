@@ -24,10 +24,12 @@ body {
   font-weight: bold;
   letter-spacing: 2px;
   position: relative;
-   word-spacing: 10px;
+   word-spacing: 0px;
 }
 li a
 {
+	right: 10px;
+	word-spacing: 100px;
 	color: yellow;
 	text-decoration: none;
 }
