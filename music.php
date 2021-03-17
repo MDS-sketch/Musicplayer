@@ -13,10 +13,10 @@
         <img id="logo" src="Images/logo.jpg" alt="temporarylogo" >
        <nav class="nav-bar">
     <ul>
-  <li><a href="default.asp">Home</a></li>
+  <li><a href="">Home</a></li>
   <li><a href="">Report Bug</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
+  <li><a href="">Contact</a></li>
+  <li><a href="">About</a></li>
    <li><a href="">Buy Kofi</a></li>
 </ul>
   </nav>
