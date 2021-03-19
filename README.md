@@ -19,3 +19,8 @@ this music player i'm building isn't advanced just a basic web music player buil
 -added logo
 -nav bar
 - menu
+
+19/03/2021 Homepage design 60% done
+ -adjsted the menu into place
+ -added bootstrap resources and designed the front page
+ -nav bar search design left
