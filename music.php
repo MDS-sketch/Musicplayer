@@ -13,11 +13,11 @@
         <img id="logo" src="Images/logo.jpg" alt="temporarylogo" >
        <nav class="nav-bar">
     <ul>
-  <li><a href="">Home</a></li>
-  <li><a href="">Report Bug</a></li>
-  <li><a href="">Contact</a></li>
-  <li><a href="">About</a></li>
-   <li><a href="">Buy Kofi</a></li>
+  <li><a href="Music.php">Home</a></li>
+  <li><a href="Report.php">Report Bug</a></li>
+  <li><a href="Form.php">Contact</a></li>
+  <li><a href="About.php">About</a></li>
+   <li><a href="Donation.php">Buy Kofi</a></li>
 </ul>
   </nav>
 </div>
