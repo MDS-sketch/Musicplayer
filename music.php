@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>MusicBoax</title>
   <link rel="shortcut icon" href="Images/Icon.jpg" type="image/jpg">
   <link rel="stylesheet" type="text/css" href="CSS/design.css">
@@ -16,7 +17,7 @@
 <div id="main">
     <nav role = "main">
         <img id="logo" src="Images/logo.jpg" alt="temporarylogo" >
-       <nav class="nav-bar">
+     
 
 <nav class="navbar">
   <form class="form-inline">
@@ -24,24 +25,77 @@
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
   </form>
 </nav>
-  </nav>
 </nav>
 </div>
 
+<!-- Slideshow container 
+<div class="slideshow-container">
+
+   Full-width images with number and caption text 
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="Images/Weeknd-afterhours.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="Images/enoc-ozuna.png" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="Images/eminem-kamikaze.jpg" title="eminem-kamikaze" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
 
   
 
- <!-- Footer -->
+The dots/circle
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+</script>
+
+-->
+
+</body>
+<!-- Footer -->
   <footer class="bg-white">
     <div class="container py-5">
       <div class="row py-4">
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
-          <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          <p class="font-italic text-muted">MusicBoax online mp3 player, Click any icon below to get in touch with us</p>
           <ul class="list-inline mt-4">
             <li class="list-inline-item"><a href="#"  title="twitter"><i class="fa fa-twitter"></i></a></li>
             <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="reddit"><i class="fa fa-reddit" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/mmmmadushan/" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.reddit.com/user/BardoEduardo/" target="_blank" title="reddit"><i class="fa fa-reddit" aria-hidden="true"></i></a></li>
             <li class="list-inline-item"><a href="#" target="_blank" title="Youtube"><i class="fa fa-youtube"></i></a></li>
           </ul>
         </div>
@@ -57,20 +111,20 @@
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
           <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
+            <li class="mb-2"><a href="Login.php" class="text-muted">Login</a></li>
+            <li class="mb-2"><a href="Register.php" class="text-muted">Register</a></li>
             <li class="mb-2"><a href="#" class="text-muted">Report Bug</a></li>
             <li class="mb-2"><a href="#" class="text-muted">Donate</a></li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-6 mb-lg-0">
           <h6 class="text-uppercase font-weight-bold mb-4">Subscribe to get notified of new songs</h6>
-          <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+          <p class="text-muted mb-4">Get notified everytime a new album is released!!</p>
           <div class="p-1 rounded border">
             <div class="input-group">
               <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
               <div class="input-group-append">
-                <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+                <button id="button-addon1" type="submit" class="btn btn-link"><a href="" target="_self" title=""><i class="fa fa-paper-plane"></i></a></button>
               </div>
             </div>
           </div>
@@ -86,6 +140,4 @@
     </div>
   </footer>
   <!-- End -->
-
-</body>
 </html>
