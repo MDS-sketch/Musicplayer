@@ -24,3 +24,7 @@ this music player i'm building isn't advanced just a basic web music player buil
  -adjsted the menu into place
  -added bootstrap resources and designed the front page
  -nav bar search design left
+
+ 20/03/2021
+
+ -starting login page and register page
