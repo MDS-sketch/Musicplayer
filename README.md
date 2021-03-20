@@ -28,3 +28,6 @@ this music player i'm building isn't advanced just a basic web music player buil
  20/03/2021
 
  -starting login page and register page
+ -login page design complete
+ -register page few changes to be made
+ 
