@@ -16,14 +16,15 @@
       <div class='welcome'>Hello There!</div>
       <div class='subtitle'>We're almost done. Before using our services you need to create an account.</div>
       <div class='input-fields'>
-        <input type='text' placeholder='Username' class='input-line full-width'></input>
-        <input type='email' placeholder='Email' class='input-line full-width'></input>
-        <input type='password' placeholder='Password' class='input-line full-width'></input>
-        <input type='password' placeholder='Confirm Password' class='input-line full-width'></input>
+        <input type='text' placeholder='Username' name="username" class='input-line full-width'></input>
+        <input type='email' placeholder='Email' name="email" class='input-line full-width'></input>
+        <input type='password' placeholder='Password' name="password" class='input-line full-width'></input>
+        <input type='password' placeholder='Confirm Password' name="confpassword" class='input-line full-width'></input>
 
       </div>
       <div class='spacing'>continue with <span class='highlight'>Google</span></div>
-      <a class="or"> OR </a>
+
+     
       <div><button class='ghost-round full-width'>Create Account</button></div>
       <i class="reg">Already Registered?<a href="Login.php" class="log"> Login</a></i>
     </div>
