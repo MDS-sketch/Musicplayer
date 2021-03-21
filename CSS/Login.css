@@ -176,6 +176,7 @@ body,
 html {
   margin: 0;
   height: 100%;
+  width: 100%;
 }
 
 input {
@@ -281,7 +282,7 @@ button:focus {
    background: #ff5f6d;
   background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
   background: linear-gradient(to right, #ff5f6d, #ffc371);
-  height: 110%;
+  height: 100%;
 }
 
 .content {
@@ -333,12 +334,12 @@ button:focus {
   -webkit-flex-flow: column;
   -ms-flex-flow: column;
   flex-flow: column;
-  bottom: 100px;
+  bottom: 90px;
   box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   height: 500px;
   width: 560px;
-  left: 300px;
+  left: 0px;
   }
 
 .overlay {
