@@ -30,4 +30,10 @@ this music player i'm building isn't advanced just a basic web music player buil
  -starting login page and register page
  -login page design complete
  -register page few changes to be made
- 
+ -removed nav
+
+
+30/03/2021
+
+-yeah i missed 10 days of development 
+-i'm going to start the server side for login and register tomorrow
