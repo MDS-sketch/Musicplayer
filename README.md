@@ -34,6 +34,7 @@ this music player i'm building isn't advanced just a basic web music player buil
 
 
 30/03/2021
-
--yeah i missed 10 days of development 
+ 
 -i'm going to start the server side for login and register tomorrow
+
+project has been halted due to other commitments.
